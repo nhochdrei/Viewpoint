@@ -123,7 +123,7 @@ module Viewpoint::EWS::Types
     end
 
     def recycle!
-      delete! :recycle
+      delete! deltype: :recycle
     end
 
     def get_all_properties!
